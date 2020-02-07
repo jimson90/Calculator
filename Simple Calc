@@ -1,0 +1,41 @@
+#This will be a basic calculator which solves addition, subtraction, multiplication and division of two numbers
+
+def (num1, num2):
+	return num1 + num2
+
+def (num1, num2):
+	return num1 - num2
+	
+def (num1,num2):
+	return num1 * num2
+	
+def (num1,num2):
+	return num1 / num2
+	
+print("Select the correct Operator")
+print(" 1 = Addition")
+print(" 2 = Subtraction")
+print(" 3 = Multiplication")
+print(" 4 = Division")
+
+Pick = input(" Pick 1,2,3,4: )
+
+num1 = float(input("Enter a number: "))
+num2 = float(input("Enter a number: "))
+
+if Pick == "1":
+	print(num1 + num2)
+
+elif Pick == "2":
+	print(num1 - num2)
+	
+elif Pick == "3":
+	print(num1 * num2)
+
+elif Pick == "4":
+	print(num1 / num2)
+
+else:
+	print("Invalid Input")
+
+
